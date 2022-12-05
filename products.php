@@ -98,13 +98,13 @@ if(isset($_GET['title']))
 										if($Quantity['Product_Quantity']>=10)
 										{
 											?>
-											<p><h3><strong><?php echo $Quantity['Product_Quantity']?></strong> in stock </h3></p>
+											<p><h3>Size <?php echo $Selected_Size?> : <strong><?php echo $Quantity['Product_Quantity']?></strong> in stock </h3></p>
 											<?php
 										}
 										else
 										{
 											?>
-											<p><h3><strong>Just <?php echo $Quantity['Product_Quantity']?></strong> in stock! Hurry </h3></p>
+											<p><h3>Size <?php echo $Selected_Size?> : Just <strong> <?php echo $Quantity['Product_Quantity']?></strong> in stock</h3></p>
 											<?php
 										}
 									}
